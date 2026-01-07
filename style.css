@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    font-family: Arial, sans-serif;
+}
+
+/* Calculator box */
+.calculator {
+    width: 320px;
+    background-color: #ffffff;
+}
+
+/* Display */
+#display {
+    height: 60px;
+    font-size: 1.8rem;
+}
+
+/* Button grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Buttons */
+button {
+    height: 55px;
+    font-size: 1.2rem;
+}
+
+/* Zero button takes two columns */
+.zero {
+    grid-column: span 2;
+}
